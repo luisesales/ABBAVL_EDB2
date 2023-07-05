@@ -367,7 +367,7 @@ struct Node
             cout << "    ";
         }
 
-        cout << node->key<< endl;
+        cout <<node->key;
 
         for (int ii = 4; ii < 40 - node->level * 4 - calcQtdDigitos(node->key); ii++)
         {
